@@ -1,0 +1,130 @@
+.project{
+    padding: 10px;
+}
+
+.slider .carousel{
+    margin: 100px 80px;
+    
+}
+
+.project-img{
+    margin-top: 100px;
+}
+
+.project-img .sect1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.project-img img{
+    width: 500px;
+    margin-right: 10px;
+}
+
+.project h1{
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+
+.project h1::before{
+    content: "";
+    width: 85px;
+    height: 3px;
+    background: rgb(4, 54, 128);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+
+.project h1::after{
+    content: "";
+    width: 80px;
+    height: 3px;
+    background: rgb(4, 54, 128);
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 40%;
+    z-index: -2;
+}
+
+.project span {
+    background: #fff;
+}
+
+.project-img .sect2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10%;
+}
+
+.project-img .sect1 p{
+    margin: 80px 100px;
+}
+
+.project-img .sect2 p{
+    margin: 200px 10px 0 30px;
+    padding: 100px;
+}
+
+.project-img .sect3 img{
+    width: 600px;
+    height: 600px;
+}
+
+.project-img .sect3 .model{
+    width: 650px;
+    height: 500px;
+    margin-top: 350px;
+}
+
+.project-img .sect3 .sub-sect{
+    display: flex;
+}
+
+.project-img .sect3 p{
+    margin: -150px 0 200px 100px;
+}
+
+@media screen and (max-width:960px){
+    .slider .carousel{
+        margin: 100px 10px;
+        
+    }
+
+    .project-img .sect1{
+        display: block;
+        text-align: center;
+    }
+
+    .project-img .sect2{
+        display: block;
+        text-align: center;
+    }
+
+    .project-img .sect3 .sub-sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-img .sect3 .model{
+        margin: 50px 80px;
+        width: 500px;
+        height: 400px;
+    }
+
+    .project-img .sect2 p{
+        margin-top: 10px;
+    }
+
+    .project-img .sect3 p{
+        text-align: center;
+        margin: 10px;
+    }
+}

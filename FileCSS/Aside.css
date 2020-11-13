@@ -1,0 +1,72 @@
+.Aside {
+    background-image: url('../resource/luxbath.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 25px;
+}
+
+.aside-element {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+
+.aside-element span {
+    padding: 10px;
+}
+
+.aside-element span i{
+    color: #000;
+}
+
+.aside-element span p{
+    font-size: 1.25rem;
+}
+
+.aside-element .fas {
+    margin: 50px 10px;
+    transition: font-size 0.2s ease-in;
+}
+
+.aside-element .fas:hover{
+    font-size: 1.8rem;
+}
+
+.aside-element .second {
+    background-color: rgba(255, 255, 0, 0.801);
+}
+
+.aside-element .second i{
+    margin-top: 50px;
+}
+
+@media screen and (max-width:960px){
+    
+    .main-aside{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .aside-element {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .aside-element .first , .aside-element .second {
+        height: 50vh;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main-aside{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .aside-element {
+        display: flex;
+        flex-direction: row;
+    }
+
+} 

@@ -1,0 +1,155 @@
+
+.main-contact{
+    margin-top: 120px;
+}
+
+
+.con-sect1{
+    background-color: rgb(6, 62, 77);
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 13px 8px 19px 8px rgba(0, 0, 0, .3);
+
+}
+
+.con-sect1 .sect1-info {
+    padding: 10px;
+    margin: 30px 0 80px 0;
+}
+
+.con-sect1 h3{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.con-sect1 h3{
+    font-size: 17px;
+}
+
+.con-sect1 p{
+    margin-bottom: 0px;
+}
+
+.con-sect1 .sect1-info2 i{
+    padding: 0 15px;
+    font-size: 25px;
+}
+
+.con-sect1 .social{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.con-sect1 .social i {
+    padding: 15px;
+    font-size: 1.7rem;
+    color: #fff;
+    transition: all 0.2s ease-in;
+    margin-left: 10px;
+    border-radius: 30px;
+
+}
+
+.social i:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.con-sect2{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 13px 8px 19px 8px rgba(0, 0, 0, .3);
+}
+
+.con-header{
+    text-align: center;
+}
+
+.con-row{
+    padding: 60px;
+}
+
+form{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+
+form input{
+    border: none;
+    border-bottom: 2px solid #777;
+    color: #000;
+    margin-bottom: 50px;
+    outline: none;
+}
+
+form #last, form #tel{
+    margin-left: 100px;
+}
+
+form #female, form #others{
+    margin-left: 40px;
+}
+
+form #female, form #others, form #male{
+    margin-right: 10px;
+}
+
+form #male{
+    position: relative;
+    top: -10px;
+}
+
+form #female{
+    position: relative;
+    top: -10px;
+}
+
+form #others{
+    position: relative;
+    top: -10px;
+}
+
+form textarea{
+    border: none;
+    width: 60%;
+    border-bottom: 3px solid #777;
+    outline: none;
+}
+
+form #msg{
+    font-size: 30px;
+}
+
+form #btn{
+    padding: 7px;
+    width: 150px;
+    border: 3px solid rgb(6, 62, 77);
+    border-radius: 15px;
+    color: rgb(6, 62, 77);
+    background: none;
+    margin-left: 70%;
+    margin-top: 30px;
+    font-weight: bolder;
+    transition: all .2s ease-in;
+}
+
+form #btn:hover{
+    color: #fff;
+    background-color: rgb(6, 62, 77);
+}
+
+@media screen and (max-width: 700px){
+    form #last{
+        margin-left: 0;
+    }
+
+    form #tel{
+        margin-left: 0;
+    }
+
+    form #btn{
+        margin: 50px 60px;
+    }
+
+}

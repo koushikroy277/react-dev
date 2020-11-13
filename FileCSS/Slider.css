@@ -1,0 +1,24 @@
+.slider {
+    text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: #000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: -250px;
+    color: #000;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 17vh;
+    width: 150%;
+}

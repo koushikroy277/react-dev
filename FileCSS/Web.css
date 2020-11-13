@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
+}
+
+.container-fluid-lg{
+    font-size: 25px;
+}
+
+.container-fluid-lg .row .title-element {
+    color: #fff;
+    height: 80vh;
+    background-image: linear-gradient(#042836, #000);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 3.5rem;
+}
+
+.title strong {
+    color: yellow;
+}
+
+.main-element {
+    color: #000;
+    display: flex;
+}
+
+.main-element h1{
+    font-size: 3rem;
+    padding: 60px 40px 0 40px;
+}
+
+.main-element p {
+    padding: 10px 40px;
+}
+
+.main-element img {
+    width: 600px;
+    height: 100%;
+    min-width: 400px;
+}
+
+.title-element i {
+    margin-left: 20px;
+}
+
+.title-element .one-line{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.title-element #learn{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease-in;
+}
+
+.title-element #learn:hover{
+    color: yellow;
+}
+
+.title-element .social i {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: 1.02rem;
+    color: #fff;
+    transition: all 0.2s ease-in;
+}
+
+.title-element .social i:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main-element{
+        flex-direction: column;
+    }
+
+    .main-element img {
+        height: 500px;
+        width: 100%;
+    }
+
+}
